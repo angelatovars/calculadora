@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_end_color">
+
+    <Button
+        android:id="@+id/CalcularFibonacci"
+        android:layout_width="365dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="252dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="Calcular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Caja1"
+        android:layout_width="249dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="56dp"
+        android:background="@color/material_dynamic_tertiary60"
+        android:backgroundTint="@color/material_dynamic_tertiary70"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ingrese un número"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="318dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="360dp"
+        android:background="#EEECF1"
+        android:backgroundTint="@color/material_dynamic_neutral90"
+        android:text="RESULTADO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorLink="@color/material_dynamic_tertiary60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.397"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fibonacciTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Secuencia de Fibonacci"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

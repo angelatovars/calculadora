@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/textColorSecondaryInverseNoDisable"
+    android:foregroundTint="@color/material_dynamic_tertiary60"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <!-- TabLayout -->
+
+    <!-- ViewPager -->
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/Factorial"
+        android:layout_width="170dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="584dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="Factorial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="318dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="36dp"
+        android:background="#EEECF1"
+        android:backgroundTint="@color/material_dynamic_neutral90"
+        android:text="RESULTADO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorLink="@color/material_dynamic_tertiary60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Sm"
+        android:layout_width="174dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="384dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="Suma"
+        android:visibility="visible"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/black"
+        app:strokeColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/Rt"
+        android:layout_width="170dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="484dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="Resta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Dv"
+        android:layout_width="169dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="484dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="División"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Ml"
+        android:layout_width="172dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="384dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="Multiplicacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Potencia"
+        android:layout_width="170dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="584dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="Potencia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Fibonacci"
+        android:layout_width="365dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="696dp"
+        android:backgroundTint="@color/material_dynamic_primary70"
+        android:text="Secuencia de fibonacci"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/Caja1"
+        android:layout_width="249dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="64dp"
+        android:background="@color/material_dynamic_tertiary60"
+        android:backgroundTint="@color/material_dynamic_tertiary70"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ingrese un número"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <EditText
+        android:id="@+id/Caja2"
+        android:layout_width="251dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="244dp"
+        android:background="@color/material_dynamic_tertiary70"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ingrese un número"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
