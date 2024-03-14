@@ -1,0 +1,19 @@
+name: Pruebas Java
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del código
+      uses: actions/checkout@v2
+      
+    - name: Configurar JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+
+    - name: Ejecutar pruebas
+      run: mvn test
