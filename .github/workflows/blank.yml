@@ -13,7 +13,9 @@ jobs:
     - name: Configurar JDK
       uses: actions/setup-java@v2
       with:
-        java-version: '20.0.2"'
+        java-version: '11.0.11'
+        distribution: 'adopt'
 
     - name: Ejecutar pruebas
       run: mvn test
+
