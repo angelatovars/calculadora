@@ -14,8 +14,10 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '11.0.11'
-        distribution: 'adopt'
 
-    - name: Ejecutar pruebas
-      run: mvn test
+    - name: Configurar Maven
+  run: |
+    sudo apt update
+    sudo apt install maven -y
+      
 
