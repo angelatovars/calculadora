@@ -17,4 +17,4 @@ jobs:
         distribution: 'adopt'
 
     - name: Ejecutar pruebas
-      run: mvn test
+      run: Calculadora-1/Calculadora/app/src/androidTest/java/com/example/calculadora/BienvenidaActivityTest.java
