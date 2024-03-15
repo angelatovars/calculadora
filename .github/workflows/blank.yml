@@ -16,5 +16,5 @@ jobs:
         java-version: '11.0.11'
         distribution: 'adopt'
 
-         - name: Ejecutar pruebas
+    - name: Ejecutar pruebas
       run: mvn test
